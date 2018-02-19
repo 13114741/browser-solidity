@@ -44,7 +44,7 @@ function testSimpleContract (browser, callback) {
       .click('#runTabView .instance div[class^="title"]')
       .testFunction('f - transact (not payable)',
         '0x057d54e2f76f3993078ecf9e1b54a148def4520afc141a182293b3610bd3ce2e',
-        `[vm]\nfrom:0xca3...a733c\nto:Ballot.delegate(address) 0x692...77b3a\nvalue:0 wei\ndata:0x5c1...4d2db\nlogs:0\nhash:0x057...3ce2e`, null,
+        `[vm]\nfrom:0xca3...a733c\nto:Ballot.delegate(address) 0x692...77b3a\nvalue:0 wei\ndata:0x5c1...4d2db\nlogs:0\nhash:0xd3c...df10f`, null,
         `{
  "0": "uint256: 8"
 }`)
